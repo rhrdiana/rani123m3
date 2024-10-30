@@ -145,7 +145,7 @@ public class Main {
 
         System.out.print("\nMasukkan uang yang diberikan: Rp ");
         int payment = scanner.nextInt();
-
+        order.printReceipt(payment);
 
         // Cetak nota
         order.printReceipt(payment);
